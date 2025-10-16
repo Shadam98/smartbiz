@@ -41,5 +41,16 @@ It includes both **front-end** and **back-end** functionalities, RESTful API int
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/smartbiz.git
+git clone https://github.com/Shadam98/smartbiz.git
 cd smartbiz
+
+2️⃣ Install Dependencies
+composer install
+npm install && npm run dev
+
+3️⃣ Setup Environment
+
+Copy .env.example to .env and update:
+
+cp .env.example .env
+php artisan key:generate
